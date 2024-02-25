@@ -1,0 +1,5 @@
+*.pdf
+*.png
+*.jpg
+*.txt
+/week05/cifar-10-python/cifar-10-batches-py/
