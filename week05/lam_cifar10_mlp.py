@@ -13,12 +13,12 @@ def unpickle(file):
         dict = pickle.load(f, encoding="latin1")
     return dict
 
-datadict_1 = unpickle('C:/Users/Admin/OneDrive/Documents/Intro to PR n ML/week05/cifar-10-python/cifar-10-batches-py/data_batch_1')
-datadict_2 = unpickle('C:/Users/Admin/OneDrive/Documents/Intro to PR n ML/week05/cifar-10-python/cifar-10-batches-py/data_batch_2')
-datadict_3 = unpickle('C:/Users/Admin/OneDrive/Documents/Intro to PR n ML/week05/cifar-10-python/cifar-10-batches-py/data_batch_3')
-datadict_4 = unpickle('C:/Users/Admin/OneDrive/Documents/Intro to PR n ML/week05/cifar-10-python/cifar-10-batches-py/data_batch_4')
-datadict_5 = unpickle('C:/Users/Admin/OneDrive/Documents/Intro to PR n ML/week05/cifar-10-python/cifar-10-batches-py/data_batch_5')
-datadict_test = unpickle('C:/Users/Admin/OneDrive/Documents/Intro to PR n ML/week05/cifar-10-python/cifar-10-batches-py/test_batch')
+datadict_1 = unpickle('C:/Users/Admin/OneDrive/Documents/machine-learning-algorithms-basics/week05/cifar-10-python/cifar-10-batches-py/data_batch_1')
+datadict_2 = unpickle('C:/Users/Admin/OneDrive/Documents/machine-learning-algorithms-basics/week05/cifar-10-python/cifar-10-batches-py/data_batch_2')
+datadict_3 = unpickle('C:/Users/Admin/OneDrive/Documents/machine-learning-algorithms-basics/week05/cifar-10-python/cifar-10-batches-py/data_batch_3')
+datadict_4 = unpickle('C:/Users/Admin/OneDrive/Documents/machine-learning-algorithms-basics/week05/cifar-10-python/cifar-10-batches-py/data_batch_4')
+datadict_5 = unpickle('C:/Users/Admin/OneDrive/Documents/machine-learning-algorithms-basics/week05/cifar-10-python/cifar-10-batches-py/data_batch_5')
+datadict_test = unpickle('C:/Users/Admin/OneDrive/Documents/machine-learning-algorithms-basics/week05/cifar-10-python/cifar-10-batches-py/test_batch')
 
 X_1 = datadict_1["data"]
 Y_1 = datadict_1["labels"]
