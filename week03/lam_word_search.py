@@ -20,7 +20,11 @@ X = np.array([vectors[word] for word in words])
 def euclidean_distance(vec1, vec2):
     return np.linalg.norm(np.array(vec1) - np.array(vec2))
 
-def find_most_similar_words(input_word, X, words, vectors, k = 3):
+def cosine_distance(vec1, vec2):
+    cosine_similarity = np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
+    return 1- cosine_similarity
+
+def find_most_similar_words(input_word, X, words, vectors, k = 4):
     if input_word not in vectors:
         return []
 
